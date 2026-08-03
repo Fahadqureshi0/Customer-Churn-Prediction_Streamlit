@@ -3,7 +3,7 @@ import streamlit as st
 import pickle
 
 # Load model
-loaded_model = pickle.load(open('Trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('Customer_Churn_Prediction/Trained_model.sav', 'rb'))
 
 def customer_churn_prediction(input_data):
 
