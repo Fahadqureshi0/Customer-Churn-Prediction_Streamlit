@@ -23,7 +23,7 @@ def customer_churn_prediction(input_data):
        return(' 🚶‍♀️ Customer Churn')
 
 
-result = customer_churn_prediction()
+result = customer_churn_prediction(input_data)
 print(result)
 
 
