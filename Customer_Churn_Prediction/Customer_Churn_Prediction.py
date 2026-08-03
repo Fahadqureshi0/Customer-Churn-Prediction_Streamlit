@@ -4,10 +4,9 @@ import pickle
 
 # Loading Model
 
-loaded_model = pickle.load(open('/Customer_Churn_Prediction/Trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('Customer_Churn_Prediction/Trained_model.sav', 'rb'))
 
-def customer_churn_prediction():
-    input_data = (23, 1, 3, 5, 9, 25, 0, 0, 120, 29)
+def customer_churn_prediction(input_data):
 
     # Change input data into numpy array
     input_data_as_numpy_array = np.asarray(input_data)
